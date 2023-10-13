@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "AbHDuSlZ5I/C2J1PYsjGiWa9jpLc0mHl7Ouv/UkvhKMvchDmNShp4YNrb4zeUVE4vDXkzNOViGLZaLW/JS+4Gw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\dti Digital\\Documents\\STGCase\\StageCase\\StageCase.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dti Digital\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\dti Digital\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://pkgs.dev.azure.com/mrvengenharia/_packaging/mrv-foundation/nuget/v3/index.json.",
+      "libraryId": "Swashbuckle.AspNetCore"
+    }
+  ]
+}
