@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Link to ="/lobby">
+        <Link to="/lobby">
         <p className="button"> Get Started </p>
         </Link>
       </header>

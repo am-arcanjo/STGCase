@@ -5,7 +5,7 @@ import App from './App';
 import Lobby from './pages/Lobby';
 
 
-export default function Routes() {
+export default function AppRoutes() {
     return(
         <BrowserRouter>
             <Routes>
