@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Libre+Baskerville&display=swap');
+
+.Home-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #958b96;
+  width: 100vw;
+  height: 100vh;
+}
+
+.button {
+  display: inline-block;
+  background-color: transparent; 
+  color: #e5d3eb; 
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.8s ease;
+  font-size: 140px;
+  font-family: 'Alfa Slab One', serif; 
+}
+
+.button:hover {
+  color: #b48eca; 
+  transform: scale(1.1);
+}
+

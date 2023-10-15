@@ -1,15 +1,15 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import App from './App';
+import Home from './pages/Homepage';
 import Lobby from './pages/Lobby';
 
 
-export default function AppRoutes() {
+export default function NavigationRoutes() {
     return(
         <BrowserRouter>
             <Routes>
-            <Route path="/" exact element={<App />}/>
+            <Route path="/" exact element={<Home />}/>
             <Route path="/lobby" element={<Lobby />} />
             </Routes>
         </BrowserRouter>

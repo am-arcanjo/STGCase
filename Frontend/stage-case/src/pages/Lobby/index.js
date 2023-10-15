@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import {Link, useNavigate} from 'react-router-dom';
 
-import './lobby.css';
+import './style.css';
 
-function Search() {
+function Lobby() {
   const [searchText, setSearchText] = useState('');
   const [searchResults, setSearchResults] = useState([]); 
 
@@ -24,7 +24,7 @@ function Search() {
       <div className="search-bar">
         <input
           type="text"
-          placeholder="Search..."
+          placeholder="Procure a Área desejada"
           value={searchText}
           onChange={handleSearch}
         />

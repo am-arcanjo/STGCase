@@ -1,15 +1,10 @@
-import './App.css';
-import { Link } from 'react-router-dom';
+import Routes from './routes';
+import { React } from 'react';
+import './global.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Link to="/lobby">
-        <p className="button"> Get Started </p>
-        </Link>
-      </header>
-    </div>
+    <Routes/>
   );
 }
 
