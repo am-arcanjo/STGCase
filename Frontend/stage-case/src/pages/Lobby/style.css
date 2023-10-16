@@ -9,7 +9,7 @@
 
 .Header {
   background: #033f63;
-  color: #e7e9d4;;
+  color: #e7e9d4;
   font-family: 'Alfa Slab One', serif;
   font-size: 60px;
   text-align: left;
@@ -26,7 +26,7 @@
   height: 100vh;
   background: rgb(253,187,45);
   background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(222,172,52,1) 11%, rgba(3,63,99,1) 54%);
-  color: rgb(235, 212, 159);
+  color: #e7e9d4;
   font-family: 'Montserrat', serif;
   font-size: 40px;
   text-align: left;
@@ -35,21 +35,46 @@
 }
 
 .Register-button {
-    width: 160px;
-    height: 60px;
-    background: #065485;
-    border: 0;
-    border-radius: 8px;
-    color:  #e7e9d4;;
-    font-weight: 700px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 60px;
-    transition: 0.2s;
-    font-family: 'Montserrat', serif;
+  width: 160px;
+  height: 60px;
+  background: #065485;
+  border: 0;
+  border-radius: 8px;
+  color:  #e7e9d4;
+  font-weight: 700px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  transition: 0.2s;
+  font-family: 'Montserrat', serif;
 }
 
 .Card {
-  
+  font-size: 30px;
+  color:#e7e9d4;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  line-height: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-gap: 24px;
+  list-style: none;
+}
+
+.Card li {
+  background: #ddbd8c;
+  color: rgb(95, 68, 8);
+  padding: 24px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.pagination a {
+  border-radius: 5px;
+}
+
+.pagination a.active {
+  border-radius: 5px;
 }
