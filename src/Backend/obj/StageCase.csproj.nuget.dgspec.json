@@ -1,29 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dti Digital\\Documents\\STGCase\\StageCase\\StageCase.csproj": {}
+    "/mnt/c/Users/dti Digital/Documents/STGCase/StageCase/Backend/StageCase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dti Digital\\Documents\\STGCase\\StageCase\\StageCase.csproj": {
+    "/mnt/c/Users/dti Digital/Documents/STGCase/StageCase/Backend/StageCase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dti Digital\\Documents\\STGCase\\StageCase\\StageCase.csproj",
+        "projectUniqueName": "/mnt/c/Users/dti Digital/Documents/STGCase/StageCase/Backend/StageCase.csproj",
         "projectName": "StageCase",
-        "projectPath": "C:\\Users\\dti Digital\\Documents\\STGCase\\StageCase\\StageCase.csproj",
-        "packagesPath": "C:\\Users\\dti Digital\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dti Digital\\Documents\\STGCase\\StageCase\\obj\\",
+        "projectPath": "/mnt/c/Users/dti Digital/Documents/STGCase/StageCase/Backend/StageCase.csproj",
+        "packagesPath": "/home/arcanjo/.nuget/packages/",
+        "outputPath": "/mnt/c/Users/dti Digital/Documents/STGCase/StageCase/Backend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dti Digital\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/arcanjo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/mrvengenharia/_packaging/mrv-foundation/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -68,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
         }
       }
     }

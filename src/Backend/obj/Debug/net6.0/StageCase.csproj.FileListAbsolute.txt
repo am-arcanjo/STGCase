@@ -1,0 +1,7 @@
+/mnt/c/Users/dti Digital/Documents/STGCase/StageCase/Backend/obj/Debug/net6.0/StageCase.csproj.AssemblyReference.cache
+/mnt/c/Users/dti Digital/Documents/STGCase/StageCase/Backend/obj/Debug/net6.0/StageCase.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/c/Users/dti Digital/Documents/STGCase/StageCase/Backend/obj/Debug/net6.0/StageCase.AssemblyInfoInputs.cache
+/mnt/c/Users/dti Digital/Documents/STGCase/StageCase/Backend/obj/Debug/net6.0/StageCase.AssemblyInfo.cs
+/mnt/c/Users/dti Digital/Documents/STGCase/StageCase/Backend/obj/Debug/net6.0/StageCase.csproj.CoreCompileInputs.cache
+/mnt/c/Users/dti Digital/Documents/STGCase/StageCase/Backend/obj/Debug/net6.0/StageCase.MvcApplicationPartsAssemblyInfo.cs
+/mnt/c/Users/dti Digital/Documents/STGCase/StageCase/Backend/obj/Debug/net6.0/StageCase.MvcApplicationPartsAssemblyInfo.cache

@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
+namespace StageCase.API.Databse {
 public class AreaDbContext : DbContext
 {
     public AreaDbContext(DbContextOptions<AreaDbContext> options)
@@ -8,4 +9,5 @@ public class AreaDbContext : DbContext
     }
 
     public DbSet<Item> Items { get; set; }
+}
 }
