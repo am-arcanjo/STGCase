@@ -1,0 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+
+public class AreaDbContext : DbContext
+{
+    public AreaDbContext(DbContextOptions<AreaDbContext> options)
+        : base(options)
+    {
+    }
+
+    public DbSet<Item> Items { get; set; }
+}
