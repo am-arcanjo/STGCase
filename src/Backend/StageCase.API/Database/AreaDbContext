@@ -1,13 +1,14 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace StageCase.API.Databse {
-public class AreaDbContext : DbContext
+namespace StageCase.API.Database 
 {
-    public AreaDbContext(DbContextOptions<AreaDbContext> options)
-        : base(options)
+    public class AreaDbContext : DbContext
     {
-    }
+        public AreaDbContext(DbContextOptions<AreaDbContext> options)
+            : base(options)
+        {
+        }
 
-    public DbSet<Item> Items { get; set; }
-}
+        public DbSet<Area> Area { get; set; }
+    }
 }
