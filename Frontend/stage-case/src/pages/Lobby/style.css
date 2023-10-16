@@ -34,9 +34,10 @@
   color: #e7e9d4;
   font-family: "Montserrat", serif;
   font-size: 40px;
-  text-align: left;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  align-items: center;
+  justify-content: center;
 }
 
 .Register-button {
@@ -114,11 +115,13 @@
 }
 
 .Pagination {
-  display: flex;
-  border-radius: 5px;
-  justify-content: baseline;
+  position: absolute;
+  left: 45vw;
+  size: 20vw;
+  top: 90vh;
 }
 
-.Pagination.active {
+.Pagination:hover {
   border-radius: 5px;
+  color: rgb(68, 129, 187);
 }
