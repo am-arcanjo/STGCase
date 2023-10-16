@@ -55,44 +55,48 @@ function Lobby() {
   // }, [areaId]);
 
   return (
-    <div className="Background-layer">
-      <div>
-        <header className="Header">
-          Organizer/
-          <Link to="/" className="Register-button">
-            Cadastrar Área
-          </Link>
-        </header>
-      </div>
-      Áreas Cadastradas
-      <ul className="Card">
-        {mockData.map((area) => {
-          return (
-            <li>
-              <div>
-                <h3>{area.areaName}</h3>
+    <>
+      <div className="Background-layer">
+        <div>
+          <header className="Header">
+            Organizer/
+            <Link to="/" className="Register-button">
+              Cadastrar Área
+            </Link>
+          </header>
+        </div>
+        Áreas Cadastradas
+        <ul className="Card">
+          {mockData.map((area) => {
+            return (
+              <li>
                 <div>
-                  <button
-                    className="Delete-button"
-                    /*onClick={() => handleDeleteArea(area.id)}*/ type="button"
-                  >
-                    <FiTrash2 size="25" />
-                  </button>
-                  <button
-                    className="Edit-button"
-                    /*onClick={() => handleUpdateArea(area.id)}*/ type="button"
-                  >
-                    <FiEdit size="25" />
-                  </button>
+                  <h3>{area.areaName}</h3>
+                  <div>
+                    <button
+                      className="Delete-button"
+                      /*onClick={() => handleDeleteArea(area.id)}*/ type="button"
+                    >
+                      <FiTrash2 size="25" />
+                    </button>
+                    <button
+                      className="Edit-button"
+                      /*onClick={() => handleUpdateArea(area.id)}*/ type="button"
+                    >
+                      <FiEdit size="25" />
+                    </button>
+                  </div>
                 </div>
-              </div>
-              <p>{area.areaDescription}</p>
-            </li>
-          );
-        })}
-      </ul>
-      <a className="pagination"></a>
-    </div>
+                <p>{area.areaDescription}</p>
+              </li>
+            );
+          })}
+        </ul>
+        <div className="Pagination">
+          <a>1 2 3 4</a>
+        </div>
+      </div>
+    </>
   );
 }
 

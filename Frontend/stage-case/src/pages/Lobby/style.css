@@ -113,10 +113,12 @@
   color: rgb(68, 129, 187);
 }
 
-.pagination a {
+.Pagination {
+  display: flex;
   border-radius: 5px;
+  justify-content: baseline;
 }
 
-.pagination a.active {
+.Pagination.active {
   border-radius: 5px;
 }
