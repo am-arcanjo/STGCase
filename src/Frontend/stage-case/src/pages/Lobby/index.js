@@ -41,6 +41,7 @@ function Lobby() {
     api
       .get("api/getarea")
       .then((response) => {
+        console.log(response.data);
         setAreas(response.data);
       })
       .catch((error) => {
@@ -65,7 +66,7 @@ function Lobby() {
             return (
               <li>
                 <div key={index}>
-                  <h3>{area.Name}</h3>
+                  <h3>{area.name}</h3>
                   <div>
                     <button
                       className="Delete-button"
@@ -81,7 +82,7 @@ function Lobby() {
                     </button>
                   </div>
                 </div>
-                <p>{area.Description}</p>
+                <p>{area.description}</p>
               </li>
             );
           })}
