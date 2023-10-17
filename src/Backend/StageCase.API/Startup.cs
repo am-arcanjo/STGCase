@@ -23,13 +23,11 @@ namespace YourNamespace
                 options.AddDefaultPolicy(builder =>
                 {
                     builder
+                        .AllowAnyOrigin()
                         .AllowAnyHeader()
                         .AllowAnyMethod()
-                        .DisallowCredentials();
+                        .AllowCredentials();
                 });
-
-                options.AddDefaultPolicy(builder => builder.AllowAnyOrigin());
-
             });
 
             services.AddDbContext<AreaDbContext>(options =>
