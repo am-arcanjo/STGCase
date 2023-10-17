@@ -1,28 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { FiTrash2, FiEdit } from "react-icons/fi";
 
 import "./style.css";
-const mockData = [
-  {
-    areaName: "Recursos Humanos",
-    areaDescription: "Área responsável por gerenciamento humano",
-  },
-  {
-    areaName: "Infraestrutura",
-    areaDescription: "Responsável pela infraestrutura das operações",
-  },
-  {
-    areaName: "Limpeza",
-    areaDescription:
-      "Consiste das pessoas envolvidas na limpeza e higienização do escritório como um todo",
-  },
-  {
-    areaName: "Alguma outra área",
-    areaDescription:
-      "Consiste em ser alguma outra área pra finalidade de teste",
-  },
-];
+
+const [areas, setAreas] = useState([]);
+
+useEffect(() => {
+  fetch("https://api/getarea")
+    .then((response) => response.json())
+    .then((data) => setAreas(data))
+    .catch((error) => console.error("Error fetching data: ", error));
+}, []);
 
 function Lobby() {
   // async function handleDeleteArea(id) {
@@ -67,10 +56,10 @@ function Lobby() {
         </div>
         Áreas Cadastradas
         <ul className="Card">
-          {mockData.map((area) => {
+          {areas.map((area, index) => {
             return (
               <li>
-                <div>
+                <div key={index}>
                   <h3>{area.areaName}</h3>
                   <div>
                     <button
