@@ -1,7 +1,8 @@
 using Microsoft.EntityFrameworkCore;
+using StageCase.API.Database;
 
 public class Program {
-    static void Main() {
+    static void Main(string[] args) {
         var builder = WebApplication.CreateBuilder(args);
 
         builder.Services.AddControllers();
