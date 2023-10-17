@@ -23,7 +23,7 @@ namespace YourNamespace
                 options.AddDefaultPolicy(builder =>
                 {
                     builder
-                        .AllowAnyOrigin()
+                        .WithOrigins("http://localhost:3000")
                         .AllowAnyHeader()
                         .AllowAnyMethod()
                         .AllowCredentials();
@@ -49,8 +49,8 @@ namespace YourNamespace
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
-            app.UseCors();
             app.UseRouting();
+            app.UseCors();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

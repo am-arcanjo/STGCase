@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using StageCase.API.Database;
 using System;
@@ -18,16 +19,16 @@ namespace StageCase.API.Controllers
             _context = context;
         }
 
-        [HttpGet]
         [EnableCors]
+        [HttpGet]
         public ActionResult<IEnumerable<Area>> Get()
         {
             var areas = _context.Area.ToList();
             return Ok(areas);
         }
 
-        [HttpGet("{name}")]
         [EnableCors]
+        [HttpGet("{name}")]
         public ActionResult<Area> Get(string name)
         {
             var area = _context.Area.FirstOrDefault(a => a.Name == name);
@@ -38,8 +39,8 @@ namespace StageCase.API.Controllers
             return Ok(area);
         }
 
-        [HttpPost]
         [EnableCors]
+        [HttpPost]
         public ActionResult<Area> Post([FromBody] Area newArea)
         {
             _context.Area.Add(newArea);
@@ -47,8 +48,8 @@ namespace StageCase.API.Controllers
             return CreatedAtAction("Get", new { name = newArea.Name }, newArea);
         }
 
-        [HttpPut("{name}")]
         [EnableCors]
+        [HttpPut("{name}")]
         public IActionResult Put(string name, [FromBody] Area updatedArea)
         {
             var existingArea = _context.Area.FirstOrDefault(n => n.Name == name);
@@ -63,8 +64,8 @@ namespace StageCase.API.Controllers
             return NoContent();
         }
 
-        [HttpDelete("{name}")]
         [EnableCors]
+        [HttpDelete("{name}")]
         public IActionResult Delete(string name)
         {
             var area = _context.Area.FirstOrDefault(n => n.Name == name);
