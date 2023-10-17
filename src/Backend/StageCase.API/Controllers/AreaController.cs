@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace StageCase.API 
+namespace StageCase.API.Controllers
 {
     [Route("api/getarea")]
     [ApiController]
@@ -28,18 +28,18 @@ namespace StageCase.API
         [HttpGet("{name}")]
         public ActionResult<Area> Get(string name)
         {
-            var name = _context.Area.FirstOrDefault(n => n.Nome == name);
-            if (name == null)
+            var area = _context.Area.FirstOrDefault(a => a.Name == name);
+            if (area == null)
             {
                 return NotFound();
             }
-            return Ok(name);
+            return Ok(area);
         }
 
         [HttpPost]
         public ActionResult<Area> Post([FromBody] Area newArea)
         {
-            _context.Areas.Add(newArea);
+            _context.Area.Add(newArea);
             _context.SaveChanges();
             return CreatedAtAction("Get", new { name = newArea.Name }, newArea);
         }
@@ -47,13 +47,14 @@ namespace StageCase.API
         [HttpPut("{name}")]
         public IActionResult Put(string name, [FromBody] Area updatedArea)
         {
-            var existingArea = _context.Areas.FirstOrDefault(n => n.Nome == name);
+            var existingArea = _context.Area.FirstOrDefault(n => n.Name == name);
             if (existingArea == null)
             {
                 return NotFound();
             }
 
-            existingItem.Property1 = updatedItem.Property1;
+            existingArea.Name = updatedArea.Name;
+            existingArea.Description = updatedArea.Description;
             _context.SaveChanges();
             return NoContent();
         }
@@ -61,13 +62,13 @@ namespace StageCase.API
         [HttpDelete("{name}")]
         public IActionResult Delete(string name)
         {
-            var area = _context.Areas.FirstOrDefault(n => n.Nome == name);
+            var area = _context.Area.FirstOrDefault(n => n.Name == name);
             if (area == null)
             {
                 return NotFound();
             }
 
-            _context.Areas.Remove(area);
+            _context.Area.Remove(area);
             _context.SaveChanges();
             return NoContent();
         }

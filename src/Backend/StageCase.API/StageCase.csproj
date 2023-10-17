@@ -7,6 +7,7 @@
     <UserSecretsId>ec7efb13-0914-4541-9ac4-1fe8964e3715</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>.</DockerfileContext>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,6 +15,7 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.0" />
+    <Compile Include="Database\AreaDbContext.cs" />
   </ItemGroup>
 
 </Project>
