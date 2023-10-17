@@ -1,5 +1,4 @@
 using Microsoft.EntityFrameworkCore;
-using StageCase.API.Models;
 
 namespace StageCase.API.Database
 {
@@ -8,5 +7,4 @@ namespace StageCase.API.Database
         public AreaDbContext(DbContextOptions<AreaDbContext> options) : base(options) { }
         public DbSet<Area> Area { get; set; } 
     }
-
 }

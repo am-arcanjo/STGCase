@@ -16,6 +16,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.0" />
     <Compile Include="Database\AreaDbContext.cs" />
+    <Compile Include="Controllers\AreaController.cs" />
+    <Compile Include="Models\AreaModel.cs" />
   </ItemGroup>
 
 </Project>
