@@ -49,3 +49,5 @@ C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\D
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\Debug\net6.0\StageCase.pdb
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\Debug\net6.0\StageCase.genruntimeconfig.cache
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\Debug\net6.0\ref\StageCase.dll
+C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\bin\Debug\net6.0\Humanizer.dll
+C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
