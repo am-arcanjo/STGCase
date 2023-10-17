@@ -1,10 +1,3 @@
-C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\Debug\net6.0\StageCase.csproj.AssemblyReference.cache
-C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\Debug\net6.0\StageCase.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\Debug\net6.0\StageCase.AssemblyInfoInputs.cache
-C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\Debug\net6.0\StageCase.AssemblyInfo.cs
-C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\Debug\net6.0\StageCase.csproj.CoreCompileInputs.cache
-C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\Debug\net6.0\StageCase.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\Debug\net6.0\StageCase.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\bin\Debug\net6.0\appsettings.json
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\bin\Debug\net6.0\StageCase.exe
@@ -12,9 +5,11 @@ C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\bin\D
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\bin\Debug\net6.0\StageCase.runtimeconfig.json
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\bin\Debug\net6.0\StageCase.dll
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\bin\Debug\net6.0\StageCase.pdb
+C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\bin\Debug\net6.0\Humanizer.dll
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
@@ -40,6 +35,13 @@ C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\bin\D
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\Debug\net6.0\StageCase.csproj.AssemblyReference.cache
+C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\Debug\net6.0\StageCase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\Debug\net6.0\StageCase.AssemblyInfoInputs.cache
+C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\Debug\net6.0\StageCase.AssemblyInfo.cs
+C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\Debug\net6.0\StageCase.csproj.CoreCompileInputs.cache
+C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\Debug\net6.0\StageCase.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\Debug\net6.0\StageCase.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\Debug\net6.0\scopedcss\bundle\StageCase.styles.css
@@ -49,5 +51,3 @@ C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\D
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\Debug\net6.0\StageCase.pdb
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\Debug\net6.0\StageCase.genruntimeconfig.cache
 C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\obj\Debug\net6.0\ref\StageCase.dll
-C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\bin\Debug\net6.0\Humanizer.dll
-C:\Users\dti Digital\Documents\STGCase\StageCase\src\Backend\StageCase.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

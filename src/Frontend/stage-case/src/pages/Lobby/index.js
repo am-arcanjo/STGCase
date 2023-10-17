@@ -1,17 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { FiTrash2, FiEdit } from "react-icons/fi";
+import api from "../../services/Api";
 
 import "./style.css";
-
-const [areas, setAreas] = useState([]);
-
-useEffect(() => {
-  fetch("https://api/getarea")
-    .then((response) => response.json())
-    .then((data) => setAreas(data))
-    .catch((error) => console.error("Error fetching data: ", error));
-}, []);
 
 function Lobby() {
   // async function handleDeleteArea(id) {
@@ -43,6 +35,19 @@ function Lobby() {
   //     })
   // }, [areaId]);
 
+  const [areas, setAreas] = useState([]);
+
+  useEffect(() => {
+    api
+      .get("api/getarea")
+      .then((response) => {
+        setAreas(response.data);
+      })
+      .catch((error) => {
+        console.error("Error fetching data: ", error);
+      });
+  }, []);
+
   return (
     <>
       <div className="Background-layer">
@@ -60,7 +65,7 @@ function Lobby() {
             return (
               <li>
                 <div key={index}>
-                  <h3>{area.areaName}</h3>
+                  <h3>{area.Name}</h3>
                   <div>
                     <button
                       className="Delete-button"
@@ -76,7 +81,7 @@ function Lobby() {
                     </button>
                   </div>
                 </div>
-                <p>{area.areaDescription}</p>
+                <p>{area.Description}</p>
               </li>
             );
           })}
